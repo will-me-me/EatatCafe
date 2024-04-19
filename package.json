@@ -1,0 +1,72 @@
+{
+  "name": "bakerspoint",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "lint": "vue-cli-service lint",
+    "dev": "vite",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,vue}\""
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "@tsparticles/vue3": "^3.0.0",
+    "@vueuse/motion": "^2.0.0",
+    "axios": "^1.6.5",
+    "chroma-js": "^2.4.2",
+    "core-js": "^3.8.3",
+    "gsap": "^3.12.4",
+    "pinia": "^2.1.7",
+    "roboto-fontface": "*",
+    "tsparticles": "^3.0.3",
+    "typed.js": "^2.1.0",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vue-tel-input": "^8.3.1",
+    "vue-typed-js": "^0.1.2",
+    "vue3-lottie": "^3.2.0",
+    "vue3-particles": "^2.12.0",
+    "vuetify": "npm:@vuetify/nightly@next",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "^3.3.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.4.1",
+    "vite": "^3.0.8",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-particles": "^1.0.9"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
